@@ -1,0 +1,9 @@
+
+.DS_Store
+.ipynb_checkpoints
+.azureml
+.azureml/
+.amlignore
+tmp/
+tmp*
+test-*
