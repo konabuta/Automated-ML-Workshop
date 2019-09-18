@@ -1,7 +1,6 @@
 # Automated-ML-Workshop
-# Automated ML Workshop
 
-Automated ML Workshop materials 
+Azure Machine Learning Automated ML Workshop materials 
 
 <br/>
 
@@ -18,6 +17,10 @@ Automated ML Workshop materials
 
 <br/>
 
+## Automated Machine Learning
+Azure Machine Learning が提供する Automated Machine Learning は、特徴量エンジニアリング & モデル選択 & パラメータ選択を全自動で行います。
+
+<img src="https://docs.microsoft.com/ja-jp/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png" width=400>
 
 ## Azure Machine Learning service
 ### [Azure Machine Learning service](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/)
@@ -56,15 +59,11 @@ python -m ipykernel install --user --name myenv --display-name myenv
 
 <br/>
 
-
-<!-- 
-### 異常検知
-- One-Class SVM -->
-
-<!-- ## [推薦システム (Recommendation)](Recommendation) ## -->
-<!-- ## 需要予測 (Demand Forecasting) ##
-### 自動機械学習による需要予測モデルj構築
-### 状態空間モデルによる時系列モデルの解釈 -->
-<!-- ## 在庫最適化 (Optimization) ## -->
+## Reference
+- [自動機械学習とは？ (製品ドキュメント)](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/concept-automated-ml?WT.mc_id=oreilly-webinar-lazzeri)
+- [アウトプットの理解 (製品ドキュメント)](https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-understand-automated-ml)
+- [Automated ML Sample Notebook (GitHub)](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/automated-machine-learning)
+- [Probabilistic Matrix Factorization for Automated Machine Learning
+(Microsoft Research Paper)](https://www.microsoft.com/en-us/research/publication/probabilistic-matrix-factorization-for-automated-machine-learning/)
 
 
