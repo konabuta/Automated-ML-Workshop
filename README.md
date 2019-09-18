@@ -22,6 +22,9 @@ Azure Machine Learning が提供する Automated Machine Learning は、特徴�
 
 <img src="https://docs.microsoft.com/ja-jp/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png" width=400>
 
+<br/>  
+
+
 ## Azure Machine Learning service
 ### [Azure Machine Learning service](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/)
 Azure Machine Learning service は、機械学習/深層学習のプロセスを効率的に回すオープンな分析プラットフォームです。
@@ -40,17 +43,17 @@ Azure Machine Learning service が提供している Notebook VM を利用する
 
 既存のカーネルを利用しない or ローカルPCなど別環境で Azure Machine Learning service を利用する際は、新たに Python SDK をインストールします。
 
-```python
+```bash
 # New Conda
 conda create -n myenv Python=3.6
 # Activate 
 conda activate myenv
 ```
-```python
+```bash
 # Package Install
 pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
 ```
-```python
+```bash
 # Jupyter Kernel
 python -m ipykernel install --user --name myenv --display-name myenv
 ```
