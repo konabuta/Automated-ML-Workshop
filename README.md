@@ -1,41 +1,32 @@
 # Automated-ML-Workshop
 
-Azure Machine Learning Automated ML Workshop materials 
+Microsoft Automated ML Workshop Materials 
 
 <br/>
 
-## Workshop Contents
-### 中古車価格の予測モデリング
-- [Simple](notebooks/Automobile-regression.ipynb)
-- [with Explainer](notebooks/Automobile-regression-explainer.ipynb)
-### 品質管理の予測モデリング
-- [Simple](notebooks/FactoryQC-classification.ipynb)
-- [with Explainer](notebooks/FactoryQC-classification-explainer.ipynb)
-### 顧客離反の予測モデリング
-- [Simple](notebooks/Churn-classification.ipynb)
-- [with Explainer](notebooks/Churn-classification-explainer.ipynb)
+## Sample Code
+| Algorithm | Environment | Automated ML Type | Description | 
+| --- | --- | --- | --- |
+| Classification (Tabular) | Azure ML service Python SDK [ [Remote](Sample/Azure-Machine-Learning-service/Churn-classification-explainer-remote.ipynb) / [Local](Sample/Azure-Machine-Learning-service/Churn-classification-explainer.ipynb) ]| Automated ML | 顧客離反分析| 
+| Classification (Tabular)| Azure ML service Python SDK [ [Remote](Sample/Azure-Machine-Learning-service/FactoryQC-classification-explainer-remote.ipynb) / [Local](Sample/Azure-Machine-Learning-service/FactoryQC-classification-explainer.ipynb) ]| Automated ML | 製品品質の予測| 
+| Regression (Tabular)| Azure ML service Python SDK [ [Local](Sample/Azure-Machine-Learning-service/Automobile-regression-explainer.ipynb) / [Remote](Sample/Azure-Machine-Learning-service/Automobile-regression-explainer-remote.ipynb) ]| Automated ML | 中古車価格の予測| 
+| Classification (Image)| Optuna + Azure ML service Python SDK [ [Remote](Sample/Azure-Machine-Learning-service/Mnist-classification-keras-Optuna.ipynb) ]| Optuna | MNIST 文字認識| 
+| Classification (Image)| Neural Network Intelligence [ [Remote](Sample/NNI/MNIST/) ]| Tree-structured Parzen Estimator | MNIST 文字認識| 
+
+
 
 <br/>
 
-## Automated Machine Learning
-Azure Machine Learning が提供する Automated Machine Learning は、特徴量エンジニアリング & モデル選択 & パラメータ選択を全自動で行います。
+## Tuning Algorithm
 
-<img src="https://docs.microsoft.com/ja-jp/azure/machine-learning/service/media/tutorial-auto-train-models/flow2.png" width=400>
-
-<br/>  
-
-
-## Azure Machine Learning service
-### [Azure Machine Learning service](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/)
-Azure Machine Learning service は、機械学習/深層学習のプロセスを効率的に回すオープンな分析プラットフォームです。
-
-<img src="https://docs.microsoft.com/en-us/azure/machine-learning/service/media/concept-azure-machine-learning-architecture/workflow.png" width = "500">   
-
+### [Azure Machine Learning service - Automated ML](./Azure-Machine-Learning-service.md)
+### [Optuna](https://optuna.org/)
+### [Neural Network Intelligence](https://github.com/microsoft/nni)
 
 <br/>    
   
-## 環境準備
-### Azure Machine Learning service Python SDK
+## Setup
+### Azure Machine Learning service
 
 Azure Machine Learning service が提供している Notebook VM を利用すると、Python SDK が既にインストールされた Jupyter Notebook / JupyterLab を利用することができます。
 
@@ -59,6 +50,12 @@ python -m ipykernel install --user --name myenv --display-name myenv
 ```
 
 詳細は構築手順は[こちらのページ](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/how-to-configure-environment#local)をご参照ください。
+
+### Optuna
+See https://github.com/pfnet/optuna#installation
+
+### Neural Network Intelligegnce
+See https://github.com/microsoft/nni#install--verify
 
 <br/>
 
