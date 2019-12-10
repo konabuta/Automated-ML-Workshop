@@ -5,13 +5,13 @@ Microsoft Automated ML Workshop Materials
 <br/>
 
 ## Sample Code
-| Algorithm | Environment | Version | Description | 
-| --- | --- | --- | --- |
-| Classification (Tabular) | [Azure Machine Learning](Sample/Azure-Machine-Learning-service/Churn-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.76 | 顧客離反分析| 
-| Classification (Tabular)| [Azure Machine Learning](Sample/Azure-Machine-Learning-service/FactoryQC-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.62 | 製品品質の予測| 
-| Regression (Tabular)| [AAzure Machine Learning](Sample/Azure-Machine-Learning-service/Automobile-regression-explainer.ipynb)|Azure ML Python SDK  1.0.76 | 中古車価格の予測| 
-| Classification (Image)| [Optuna + Azure Machine Learning](Sample/Azure-Machine-Learning/Mnist-classification-keras-Optuna.ipynb)| Azure ML Python SDK 1.0.65 |  MNIST 文字認識| 
-| Tree-structured Parzen Estimator for Classification (Image) | [Neural Network Intelligence](Sample/NNI/MNIST/)| NNI 1.1 | MNIST 文字認識| 
+| Algorithm | Environment | Version | Description | Other | 
+| --- | --- | --- | --- | --- | 
+| Classification (Tabular) | [Azure Machine Learning](Sample/Azure-Machine-Learning/Churn-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.76 | 顧客離反分析| |
+| Classification (Tabular)| [Azure Machine Learning](Sample/Azure-Machine-Learning/FactoryQC-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.62 | 製品品質の予測| |
+| Regression (Tabular)| [AAzure Machine Learning](Sample/Azure-Machine-Learning-/Automobile-regression-explainer.ipynb)|Azure ML Python SDK  1.0.76 | 中古車価格の予測| |
+| Classification (Image)| [Optuna + Azure Machine Learning](Sample/Azure-Machine-Learning/Mnist-classification-keras-Optuna.ipynb)| Azure ML Python SDK 1.0.65 |  MNIST 文字認識| Azure Database for MySQL へ接続  |
+| Classification (Image) | [Neural Network Intelligence](Sample/NNI/MNIST/)| NNI 1.1 | MNIST 文字認識| Tree-structured Parzen Estimator |
 
 
 
