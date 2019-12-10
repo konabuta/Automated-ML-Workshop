@@ -6,7 +6,7 @@ Microsoft Automated ML Workshop Materials
 
 ## Sample Code
 | Algorithm | Environment | Version | Description | 
-| --- | --- | - | --- | --- |
+| --- | --- | --- | --- |
 | Classification (Tabular) | [Azure Machine Learning](Sample/Azure-Machine-Learning-service/Churn-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.76 | 顧客離反分析| 
 | Classification (Tabular)| [Azure Machine Learning](Sample/Azure-Machine-Learning-service/FactoryQC-classification-explainer-remote.ipynb)| Azure ML Python SDK 1.0.62 | 製品品質の予測| 
 | Regression (Tabular)| [AAzure Machine Learning](Sample/Azure-Machine-Learning-service/Automobile-regression-explainer.ipynb)|Azure ML Python SDK  1.0.76 | 中古車価格の予測| 
