@@ -80,8 +80,12 @@ See  https://github.com/microsoft/nni#install--verify
 ## Reference
 - [自動機械学習とは？ (製品ドキュメント)](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/concept-automated-ml?WT.mc_id=oreilly-webinar-lazzeri)
 - [アウトプットの理解 (製品ドキュメント)](https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-understand-automated-ml)
-- [Automated ML Sample Notebook (GitHub)](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/automated-machine-learning)
-- [Probabilistic Matrix Factorization for Automated Machine Learning
-(Microsoft Research Paper)](https://www.microsoft.com/en-us/research/publication/probabilistic-matrix-factorization-for-automated-machine-learning/)
+- [モデル解釈可能性 (製品ドキュメント)](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/how-to-machine-learning-interpretability)
+- [Automated ML Sample Notebook (Microsoft Official)](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/automated-machine-learning)
+- [Probabilistic Matrix Factorization for Automated Machine Learning (Microsoft Research AutoML Meta Learning)](https://www.microsoft.com/en-us/research/publication/probabilistic-matrix-factorization-for-automated-machine-learning/)
 
+- [Interpret-Community (Interpret Library by Microsoft)](https://github.com/interpretml/interpret-community)
 
+- [Interpretable Machine Learning (General Guidance)](https://christophm.github.io/interpretable-ml-book/)
+
+- [機械学習モデル解釈ナイト (DLLAB)](https://dllab.connpass.com/event/153453/)
