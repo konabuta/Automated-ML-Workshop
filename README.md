@@ -29,7 +29,14 @@ Microsoft Automated ML Workshop Materials
 ### [Neural Network Intelligence](https://github.com/microsoft/nni)
 
 <br/>    
-  
+
+
+## Model Interpretability
+
+- [BlackBox モデル解釈の概要](./Model-Agnostic-Methods.md)
+- [自動機械学習におけるモデル解釈可能性 (製品ドキュメント)](https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-machine-learning-interpretability-automl)
+
+<br>
 ## Setup
 ### Azure Machine Learning
 
