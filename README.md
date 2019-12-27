@@ -25,9 +25,9 @@ Microsoft Automated ML Workshop Materials
 
 ## Tuning Algorithm
 
-### [Azure Machine Learning service - Automated ML](./Azure-Machine-Learning-service.md)
-### [Optuna](https://optuna.org/)
-### [Neural Network Intelligence](https://github.com/microsoft/nni)
+-  [Azure Machine Learning service - Automated ML](./Azure-Machine-Learning-service.md)
+-  [Optuna](https://optuna.org/)
+-  [Neural Network Intelligence](https://github.com/microsoft/nni)
 
 <br/>    
 
@@ -38,7 +38,7 @@ Microsoft Automated ML Workshop Materials
 - [自動機械学習におけるモデル解釈可能性 (製品ドキュメント)](https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-machine-learning-interpretability-automl)
 
 <br>
-
+ 
 ## Setup
 ### Azure Machine Learning
 
