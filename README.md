@@ -44,7 +44,7 @@ Microsoft Automated ML Workshop Materials
 
 #### Azure Machine Learning ワークスペースのセットアップ
 
-必要な環境準備の手順は下記チュートリアルをご参照ください。
+詳細な環境準備の手順は下記チュートリアルをご参照ください。
 
 - Azure Machine Learning  の環境構築とチュートリアル<br>
 ・ [チュートリアル:Python SDK で初めての ML 実験を作成する](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/tutorial-1st-experiment-sdk-setup)<br>
@@ -58,7 +58,7 @@ Microsoft Automated ML Workshop Materials
 
 
 
-#### 環境準備
+### Python 開発環境の準備
 
 ワークショップのサンプルコードをダウンロードし、正常に動作する Python パッケージをインストールします。 
 
@@ -82,7 +82,7 @@ Microsoft Automated ML Workshop Materials
     ```
     jupyter notebook
     ```
-1. 準備環境です。[Sample](./Sample) の Notebook を実行することができます。 
+1. 準備完了です。[Sample](./Sample) の Notebook を実行することができます。 
 
 
 詳細な構築手順は[こちらのページ](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/how-to-configure-environment#local)をご参照ください。
