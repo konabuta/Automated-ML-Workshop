@@ -56,27 +56,36 @@ Microsoft Automated ML Workshop Materials
     - [機械学習概論](https://aidemy.net/courses/2010)
     - [Python入門](https://aidemy.net/courses/3010)
 
-#### Python 開発環境 をローカル環境で構築する場合
-Azure Machine Learning が提供している Notebook VM を利用すると、Python SDK が予めインストールされた Jupyter Notebook / JupyterLab を利用することができます。
 
-既存のカーネルを利用しない or ローカルPC etc 別環境で Azure Machine Learning を利用する際は、新たに Python SDK をインストールします。
 
-```bash
-# New Conda
-conda create -n myenv python=3.6
-# Activate 
-conda activate myenv
-```
-```bash
-# Package Install
-pip install --upgrade azureml-sdk[notebooks,automl,explain,contrib] azureml-dataprep
-```
-```bash
-# Jupyter Kernel
-python -m ipykernel install --user --name myenv --display-name myenv
-```
+#### 環境準備
 
-詳細は構築手順は[こちらのページ](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/how-to-configure-environment#local)をご参照ください。
+ワークショップのサンプルコードをダウンロードし、正常に動作する Python パッケージをインストールします。 
+
+1. Python 3.6 以上の [Miniconda](https://conda.io/miniconda.html) をインストールします。 Azure Machine Learning の Notebook VM (or Compute Instances) を利用する場合は不要です。
+
+1. リポジトリをクローンします。
+    ```
+    git clone https://github.com/konabuta/Automated-ML-Workshop
+    ```
+1. conda 環境をインストールします。リポジトリに Python の依存関係を示した `environment.yml` ファイルがあるので、これを用いて環境を構築します。
+    ```
+    conda env create -f environment.yml
+    ```
+1. conda 環境を有効します。また、 Jupyter のカーネルに登録します。
+    ```
+    conda activate automl-workshop
+    python -m ipykernel install --user --name automl-workshop --display-name "Python (automl-workshop)"
+    ```
+1. Jupyter Notebook のサーバを開始します。Azure Machine Learning の Notebook VM (or Compute Instances) を利用する場合は不要です。
+
+    ```
+    jupyter notebook
+    ```
+1. 準備環境です。[Sample](./Sample) の Notebook を実行することができます。 
+
+
+詳細な構築手順は[こちらのページ](https://docs.microsoft.com/ja-JP/azure/machine-learning/service/how-to-configure-environment#local)をご参照ください。
 
 ### Optuna
 See  https://github.com/pfnet/optuna#installation
